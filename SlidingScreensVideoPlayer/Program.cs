@@ -4,67 +4,156 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
+
 
 namespace SlidingScreensVideoPlayer
 {
     class Program
     {
+        public static AXVLC.VLCPlugin2Class player = new AXVLC.VLCPlugin2Class();
         
 
         static void Main(string[] args)
         {
-            string[] playlist = new string[50];
+
+            // Run homing (and wait until it's over)
+            goHome();
 
             // Initialize VLC Object
-            System.Console.WriteLine("Initializing Vidoe Player");
-            AXVLC.VLCPlugin2Class player = new AXVLC.VLCPlugin2Class();
+            List<string> playlist = new List<string>();
+
             
-            // Find playlist.xml file
-            string[] playlists = Directory.GetFiles(@"", "*.xml");
 
-            // Check last modification date
-            DateTime lastModified = System.IO.File.GetLastWriteTime("playlist.xml");
 
-            // If modification date of playlist.xml.bak != modification date of playlist.xml
-            if (System.IO.File.GetLastWriteTime("playlist.xml") != System.IO.File.GetLastWriteTime("playlist.xml.bak"))
-                // Run homing (and wait until it's over)
-                GoHome();
-                // Copy playlist.xml to playlist.xml.bak
-                File.Copy("playlist.xml", "playlist.xml.bak", true);    
-                // Parse playlist.xml.bak
-                playlist = ReadPlaylist();
-            // Loop over playlist items
-                for (int i = 0; i < playlist.Length; i++)
+
+
+            // loop starts here
+            while (true)
+            {
+                // Find playlist.xml file
+                try
                 {
-                    // Play video
-
-                    // Run corrosponding motion executable
-                    RunMotion(playlist[i]);
-                    // Wait until end of video is reached (either with endofplaylistevent or by waiting the video length)
+                    File.Copy("playlist.xml", "playlist.xml.bak", true);
                 }
+                catch (FileNotFoundException)
+                {
+                    Console.WriteLine("playlist.xml not found. Please make sure that file exists and named correctly.");
+                }
+
+                // Parse playlist.xml.bak
+                playlist = readPlaylist("playlist.xml.bak");
+
+
+                    // Loop over playlist items
+                    for (int i = 0; i < playlist.Count; i++)
+                    {
+                        
+                        // Run corrosponding motion executable
+                        runMotion(playlist[i]);
+                        // Play video
+                        playVideo(playlist[i]);
+                        // Wait until end of video is reached (either with endofplaylistevent or by waiting the video length)
+                        
+                    }
+                }
+            
+
+
+            // string[] playlists = Directory.GetFiles(@"", "playlist.xml");
+
+
         }
 
-        private static void RunMotion(string p)
-        {
-            Process.Start("motionExecutables\runmotion" + p.Substring(0,2) + ".exe");
-            throw new NotImplementedException();
-        }
         
-        private static string[] ReadPlaylist()
+
+        private static void runMotion(string p)
         {
-            throw new NotImplementedException();
+            try {
+            Process.Start(@"motionExes\runmotion" + p.Substring(0, 2) + ".exe");
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Problem running motion file: runmotion" + p.Substring(0, 2) + ".exe");
+            }
         }
 
-        private static void GoHome()
+        private static List <String> readPlaylist(string playlistFile)
         {
-            throw new NotImplementedException();
+            XmlDocument doc = new XmlDocument();
+            XmlReaderSettings settings = new XmlReaderSettings { NameTable = new NameTable() };
+            XmlNamespaceManager xmlns = new XmlNamespaceManager(settings.NameTable);
+            xmlns.AddNamespace("ns2", "http://www.w3.org/XML/2008/xsdl-exx/ns1");
+            XmlParserContext context = new XmlParserContext(null, xmlns, "", XmlSpace.Default);
+            //XmlReader reader = XmlReader.Create(@"c:\users\asaieed\downloads\test.xml", settings, context);
+            XmlReader reader = XmlReader.Create(playlistFile, settings, context);
+            doc.Load(reader);
+
+            // Setup default namespace manager for searching through nodes
+            XmlNamespaceManager manager = new XmlNamespaceManager(doc.NameTable);
+            string defaultns = doc.DocumentElement.GetNamespaceOfPrefix("ns2");
+            manager.AddNamespace("ns2", defaultns);
+
+            // XmlNodeList nodes = doc.DocumentElement.SelectNodes("/ns2:catalog/ns2:book", manager);
+            XmlNodeList loops = doc.DocumentElement.SelectNodes("ns2:frame/ns2:loops", manager);
+            XmlNodeList nodes = doc.DocumentElement.SelectNodes("ns2:playlistScope", manager);
+            
+
+            //System.Console.WriteLine(nodes[0].Attributes["endDateTime"].Value);
+
+            //DateTime endDateTime = DateTime.Parse(nodes[0].Attributes["endDateTime"].Value);
+            //DateTime startDateTime = DateTime.Parse(nodes[0].Attributes["startDateTime"].Value);
+            //DateTime now = DateTime.Now;
+            DateTime today = DateTime.Today;
+
+            List<string> pl = new List<string>();
+
+            foreach (XmlNode loop in loops)
+            {
+                if (today.ToString("yyyy-MM-dd") == loop.Attributes["day"].Value)
+                {
+                    XmlNodeList slots = loop.SelectNodes("ns2:slot", manager);
+                    foreach (XmlNode slot in slots)
+                    {
+                        XmlNode fn = slot.SelectSingleNode("ns2:content/ns2:adCopy", manager);
+                        pl.Add(fn.Attributes["originalFileName"].Value);
+                    }
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+            return pl;
+
         }
 
-        public static void playVideo(AXVLC.VLCPlugin2Class p) //start playing playlist
+        private static void goHome()
         {
-            p.playlist.play();
-            p.video.fullscreen = true;
+            try
+            {
+                Process goHome = Process.Start(@"motionExes\goHome.exe");
+                goHome.WaitForExit();
+            }catch(Exception)
+            {Console.WriteLine("Problem running goHome.exe");}
+
+        }
+
+        public static void playVideo(string v) //start playing playlist
+        {
+            player.video.fullscreen = true;
+            player.addTarget(@"file:///" + v, null, AXVLC.VLCPlaylistMode.VLCPlayListReplaceAndGo, -666);
+            player.play();
+            do
+            {
+                Thread.Sleep(100);
+                Console.WriteLine("player.input.state = "+player.input.state);
+            } 
+            while (player.input.state < 4 || player.input.state > 6 );
         }
 
 

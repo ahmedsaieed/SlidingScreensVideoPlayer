@@ -1,1 +1,9 @@
 C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\SlidingScreensVideoPlayer.exe.config
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\Interop.AXVLC.dll
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.csproj.ResolveComReference.cache
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.csprojResolveAssemblyReference.cache
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\SlidingScreensVideoPlayer.exe
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\SlidingScreensVideoPlayer.pdb
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\Interop.AXVLC.dll
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.exe
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.pdb
