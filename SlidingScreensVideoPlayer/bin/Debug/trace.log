@@ -1,0 +1,46 @@
+time,message,logger,level
+2015-01-13 18:49:30.8922,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:49:30.9612,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:49:30.9612,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:49:30.9612,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:49:30.9612,Initializing soapenv:body/ns3:getPlaylistResponse/playlist/ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.7645,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.7805,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.7805,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8205,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
+2015-01-13 18:51:20.8205,Initializing List<string> playlist.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8205,Start of while loop iteration.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8205,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.8205,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.8265,Reading playlist.xml.bak,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Initializing XmlDocument,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Initializing XmlReaderSettings,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Initializing XmlNamespaceManager,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Initializing XmlParserContext,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Initializing XmlReader,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,XML reader created.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.8265,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.8265,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:51:20.8265,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:51:20.8265,Initializing soapenv:body/ns3:getPlaylistResponse/playlist/ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.2580,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.2740,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.2740,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3120,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
+2015-01-13 18:54:41.3120,Initializing List<string> playlist.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3120,Start of while loop iteration.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3120,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.3120,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.3180,Reading playlist.xml.bak,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Initializing XmlDocument,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Initializing XmlReaderSettings,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Initializing XmlNamespaceManager,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Initializing XmlParserContext,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Initializing XmlReader,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,XML reader created.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.3180,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.3180,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-13 18:54:41.3180,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
+2015-01-13 18:54:41.3180,Initializing ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace

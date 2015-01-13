@@ -2,7 +2,7 @@
     <ns2:displayUnit displayUnitId="27897162" displayUnitName="FR-NEU-DSI-0001"/>
    <ns2:playlistScope endDateTime="2014-12-31T23:36:00" startDateTime="2014-01-01T12:33:00"/>
     <ns2:frame frameId="27897164" frameName="Fullscreen" height="100" width="100" x="0" y="0" z="0">
-        <ns2:loops day="2015-01-11" endOpeningTime="23:59:59" endTime="23:59:59" startOpeningTime="00:00:00" startTime="00:00:00" theoricDuration="220000">
+        <ns2:loops day="2015-01-13" endOpeningTime="23:59:59" endTime="23:59:59" startOpeningTime="00:00:00" startTime="00:00:00" theoricDuration="220000">
             <ns2:slot duration="2">
                 <ns2:content>
                     <ns2:adCopy adCopyId="16262844" adCopyName="Portrait Full HD Flash Finnair" mime="swf" originalFileName="01traffic.mp4">

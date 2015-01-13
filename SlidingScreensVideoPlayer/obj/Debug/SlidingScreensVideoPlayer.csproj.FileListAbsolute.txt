@@ -7,3 +7,6 @@ C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Deb
 C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\Interop.AXVLC.dll
 C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.exe
 C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\obj\Debug\SlidingScreensVideoPlayer.pdb
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\NLog.config
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\NLog.dll
+C:\Projects\JcDecaux\SlidingScreensVideoPlayer\SlidingScreensVideoPlayer\bin\Debug\NLog.xml

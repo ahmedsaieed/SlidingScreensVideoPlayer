@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns3:getPlaylistResponse xmlns:ns2="urn:jcdecaux:dms:playlistservices:playlist:v1" xmlns:ns3="urn:jcdecaux:dms:playlistservices:v1:definition">
+         <playlist>
+            <ns2:displayUnit displayUnitName="test Sliding Screen CA - Fratal" displayUnitId="31898283"/>
+            <ns2:playlistScope startDateTime="2015-01-12T12:18:15" endDateTime="2015-01-12T18:18:15"/>
+            <ns2:frame z="0" y="0" x="0" width="1280" height="192" frameName="Fullscreen" frameId="31898286">
+               <ns2:loops theoricDuration="60000" startTime="00:00:00" startOpeningTime="23:00:00" endTime="00:01:26" endOpeningTime="23:00:00" day="2015-01-13">
+                  <ns2:slot duration="30000">
+                     <ns2:content>
+                        <ns2:adCopy originalFileName="03fall.ogv" mime="ogg" adCopyName="Color" adCopyId="67750990">
+                           <ns2:file location="TEST"/>
+                           <ns2:property propertyValue="1.0" propertyName="saturation"/>
+                           <ns2:property propertyValue="0" propertyName="duration"/>
+                           <ns2:property propertyValue="0" propertyName="height"/>
+                           <ns2:property propertyValue="0" propertyName="width"/>
+                           <ns2:property propertyName="videoCodec"/>
+                           <ns2:expirationTime>0</ns2:expirationTime>
+                        </ns2:adCopy>
+                        <ns2:bundle bundleName="Color" bundleId="67764558"/>
+                        <ns2:category triggerName="" triggerId="0" separationName="Filler" separationId="25988219" segmentWeight="0" segmentName="" segmentId="0"/>
+                     </ns2:content>
+                     <ns2:campain priority="0" campainId="67764552"/>
+                  </ns2:slot>
+                  <ns2:slot duration="30000">
+                     <ns2:content>
+                        <ns2:adCopy originalFileName="Fendi.ogg" mime="ogg" adCopyName="Fendi" adCopyId="67750991">
+                           <ns2:file location="TEST"/>
+                           <ns2:property propertyValue="1.0" propertyName="saturation"/>
+                           <ns2:property propertyValue="0" propertyName="duration"/>
+                           <ns2:property propertyValue="0" propertyName="height"/>
+                           <ns2:property propertyValue="0" propertyName="width"/>
+                           <ns2:property propertyName="videoCodec"/>
+                           <ns2:expirationTime>0</ns2:expirationTime>
+                        </ns2:adCopy>
+                        <ns2:bundle bundleName="Fendi" bundleId="67764684"/>
+                        <ns2:category triggerName="" triggerId="0" separationName="Parfumes" separationId="67764462" segmentWeight="0" segmentName="" segmentId="0"/>
+                     </ns2:content>
+                     <ns2:campain priority="0" campainId="67764678"/>
+                  </ns2:slot>
+               </ns2:loops>
+            </ns2:frame>
+         </playlist>
+      </ns3:getPlaylistResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
