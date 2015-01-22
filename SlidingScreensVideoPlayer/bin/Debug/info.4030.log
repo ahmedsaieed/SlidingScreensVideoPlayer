@@ -1,0 +1,51 @@
+time,message,logger,level
+2015-01-14 18:01:19.5401,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:01:44.8825,Running motion file for 01Fendi.ogg,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:01:44.8915,Playing video file 01Fendi.ogg,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:02:44.0829,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:02:44.0829,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:02:44.0829,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:02:44.0939,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:03:09.3794,Running motion file for 01Fendi.ogg,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:03:09.3794,Playing video file 01Fendi.ogg,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:08.6378,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:08.6378,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:08.6428,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:08.6428,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:33.9572,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:04:33.9662,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:16.9887,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:16.9887,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:16.9887,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:16.9887,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:42.2061,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:05:42.2171,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:24.0455,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:24.0455,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:24.0455,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:24.0565,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:49.1699,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:06:49.1699,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:31.0783,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:31.0783,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:31.0783,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:31.0893,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:56.2638,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:07:56.2798,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:08:38.0322,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:08:38.0322,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:08:38.0322,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:08:38.0452,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:03.2976,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:03.2976,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:45.1310,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:45.1310,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:45.1310,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-14 18:09:45.1430,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:00:12.8225,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:18:53.2926,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:16.0639,Homing done successfully!,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:16.0639,Copying playlist.xml to _playlist.xml,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:16.3359,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:16.3359,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:16.4509,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info

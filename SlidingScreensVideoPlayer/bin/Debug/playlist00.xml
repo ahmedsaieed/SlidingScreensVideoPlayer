@@ -1,0 +1,60 @@
+<Playlist xmlns:ns2="urn:jcdecaux:dms:playlistservices:playlist:v1">
+    <ns2:displayUnit displayUnitId="27897162" displayUnitName="FR-NEU-DSI-0001"/>
+   <ns2:playlistScope endDateTime="2014-12-31T23:36:00" startDateTime="2014-01-01T12:33:00"/>
+    <ns2:frame frameId="27897164" frameName="Fullscreen" height="100" width="100" x="0" y="0" z="0">
+        <ns2:loops day="2015-01-13" endOpeningTime="23:59:59" endTime="23:59:59" startOpeningTime="00:00:00" startTime="00:00:00" theoricDuration="220000">
+            <ns2:slot duration="2">
+                <ns2:content>
+                    <ns2:adCopy adCopyId="16262844" adCopyName="Portrait Full HD Flash Finnair" mime="swf" originalFileName="01traffic.mp4">
+                        <ns2:file location="teeest2"/>
+                        <ns2:property propertyName="saturation" propertyValue="1.0"/>
+                        <ns2:property propertyName="duration" propertyValue="0"/>
+                        <ns2:property propertyName="height" propertyValue="0"/>
+                        <ns2:property propertyName="width" propertyValue="0"/>
+                        <ns2:property propertyName="videoCodec"/>
+                        <ns2:expirationTime>0</ns2:expirationTime>
+                    </ns2:adCopy>
+                    <ns2:bundle bundleId="49503895" bundleName="Portrait Full HD Flash Finnair"/>
+                    <ns2:category segmentId="27959754" segmentName="Sponsor 1" segmentWeight="0" separationId="0" separationName="" triggerId="0" triggerName=""/>
+                </ns2:content>
+                <ns2:campain campainId="49503879" campainName="TEST_OPENLAYER_Campaign 6 - Segment Weight 0 - 20s"/>
+            </ns2:slot>
+            <ns2:slot duration="1">
+                <ns2:content>
+                    <ns2:adCopy adCopyId="40203110" adCopyName="CLU_Lagon_10s_ECRANS_vertical_FBO_10022012" mime="mov" originalFileName="02bomb.mp4">
+                        <ns2:file location="teeest2"/>
+                        <ns2:property propertyName="saturation" propertyValue="1.0"/>
+                        <ns2:property propertyName="duration" propertyValue="11000"/>
+                        <ns2:property propertyName="height" propertyValue="1080"/>
+                        <ns2:property propertyName="width" propertyValue="1920"/>
+                        <ns2:property propertyName="videoCodec" propertyValue="h264"/>
+                        <ns2:expirationTime>0</ns2:expirationTime>
+                    </ns2:adCopy>
+                    <ns2:bundle bundleId="49503998" bundleName="CLU_Lagon_10s_ECRANS_vertical_FBO_10022012"/>
+                    <ns2:category segmentId="0" segmentName="" segmentWeight="0" separationId="27897532" separationName="Luxe" triggerId="0" triggerName=""/>
+                </ns2:content>
+                <ns2:campain campainId="49503989" campainName="TEST_OPENLAYER_Campaign 4 - Separation category Luxe 1 - 10 s"/>
+            </ns2:slot>
+
+         </ns2:loops>
+		 <ns2:loops day="2015-01-12" endOpeningTime="23:59:59" endTime="23:59:59" startOpeningTime="00:00:00" startTime="00:00:00" theoricDuration="220000">
+			 <ns2:slot duration="3">
+                <ns2:content>
+                    <ns2:adCopy adCopyId="16262844" adCopyName="Portrait Full HD Flash Finnair" mime="swf" originalFileName="03Fall.ogv">
+                        <ns2:file location="teeest2"/>
+                        <ns2:property propertyName="saturation" propertyValue="1.0"/>
+                        <ns2:property propertyName="duration" propertyValue="0"/>
+                        <ns2:property propertyName="height" propertyValue="0"/>
+                        <ns2:property propertyName="width" propertyValue="0"/>
+                        <ns2:property propertyName="videoCodec"/>
+                        <ns2:expirationTime>0</ns2:expirationTime>
+                    </ns2:adCopy>
+                    <ns2:bundle bundleId="49503895" bundleName="Portrait Full HD Flash Finnair"/>
+                    <ns2:category segmentId="27959754" segmentName="Sponsor 1" segmentWeight="0" separationId="0" separationName="" triggerId="0" triggerName=""/>
+                </ns2:content>
+                <ns2:campain campainId="49503879" campainName="TEST_OPENLAYER_Campaign 6 - Segment Weight 0 - 20s"/>
+            </ns2:slot>
+		 
+		 </ns2:loops>
+    </ns2:frame>
+</Playlist>

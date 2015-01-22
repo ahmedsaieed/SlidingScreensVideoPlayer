@@ -1,28 +1,26 @@
 time,message,logger,level
-2015-01-13 18:48:38.6442,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:48:38.6952,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:48:38.6952,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:48:38.6952,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:48:38.6952,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:48:38.6952,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.8512,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.8902,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:49:30.8922,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.8922,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.8922,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.8922,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.9612,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.7805,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8205,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:51:20.8205,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8205,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.2740,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3120,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:54:41.3120,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3120,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:52.1629,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:19:52.3919,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:20:35.4054,Copying playlist.xml to _playlist.xml,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:20:35.4054,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:20:35.4054,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:20:35.4204,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:21:00.5228,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:21:00.5988,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-21 19:32:31.9794,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:07:54.9859,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:20.1484,Homing done successfully!,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:20.1484,Copying playlist.xml to _playlist.xml,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:20.1604,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:20.1604,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:20.1874,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:48.2290,Running motion file for 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:08:48.3040,Playing video file 01traffic.mp4,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:17:45.0237,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:20.5791,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.3972,Homing done successfully!,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.3972,Copying playlist.xml to _playlist.xml,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.3972,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.4152,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.4292,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:21:14.5937,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info

@@ -24,7 +24,7 @@
                   </ns2:slot>
                   <ns2:slot duration="30000">
                      <ns2:content>
-                        <ns2:adCopy originalFileName="Fendi.ogg" mime="ogg" adCopyName="Fendi" adCopyId="67750991">
+                        <ns2:adCopy originalFileName="01traffic.mp4" mime="ogg" adCopyName="Fendi" adCopyId="67750991">
                            <ns2:file location="TEST"/>
                            <ns2:property propertyValue="1.0" propertyName="saturation"/>
                            <ns2:property propertyValue="0" propertyName="duration"/>

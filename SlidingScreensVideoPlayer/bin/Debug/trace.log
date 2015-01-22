@@ -1,46 +1,106 @@
 time,message,logger,level
-2015-01-13 18:49:30.8922,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.9612,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:49:30.9612,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:49:30.9612,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:49:30.9612,Initializing soapenv:body/ns3:getPlaylistResponse/playlist/ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.7645,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.7805,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.7805,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8205,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:51:20.8205,Initializing List<string> playlist.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8205,Start of while loop iteration.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8205,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8205,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,Reading playlist.xml.bak,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Initializing XmlDocument,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Initializing XmlReaderSettings,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Initializing XmlNamespaceManager,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Initializing XmlParserContext,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Initializing XmlReader,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:51:20.8265,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:51:20.8265,Initializing soapenv:body/ns3:getPlaylistResponse/playlist/ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.2580,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.2740,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.2740,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3120,Error running the homing process. System will now exit! DO NOT ATTEMPT TO RUN ANY MOTION UNTIL HOMING IS DONE SUCCESSFULLY.,SlidingScreensVideoPlayer.Program,Fatal
-2015-01-13 18:54:41.3120,Initializing List<string> playlist.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3120,Start of while loop iteration.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3120,Copying playlist.xml to playlist.xml.bak,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3120,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,Reading playlist.xml.bak,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Initializing XmlDocument,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Initializing XmlReaderSettings,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Initializing XmlNamespaceManager,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Initializing XmlParserContext,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Initializing XmlReader,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,XML reader created.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,XML namespace reader loaded successfully.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Setting up default namespace manager.,SlidingScreensVideoPlayer.Program,Trace
-2015-01-13 18:54:41.3180,Default namespace set.,SlidingScreensVideoPlayer.Program,Info
-2015-01-13 18:54:41.3180,Initializing ns2:frame/ns2:loops handle,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.2115,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.4285,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.5295,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.6305,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.7315,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.8325,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:57.9335,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.0345,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.1355,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.2365,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.3376,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.4386,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.5396,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.6406,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.7416,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.8426,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:58.9436,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.0446,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.1456,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.2466,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.3476,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.4486,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.5496,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.6506,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.7516,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.8526,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:08:59.9536,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.0547,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.1557,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.2567,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.3577,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.4587,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.5597,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.6607,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.7617,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.8627,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:00.9637,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.0647,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.1657,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.2667,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.3677,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.4687,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.5697,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.6707,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.7717,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.8728,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:01.9738,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.0748,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.1758,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.2768,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.3778,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.4788,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.5818,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.6828,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.7838,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.8848,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:02.9858,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.0868,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.1878,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.2888,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.3898,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.4908,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.5919,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.6929,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.7939,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.8939,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:03.9949,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:04.0959,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:04.1969,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:04.2979,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:04.3989,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:09:04.4999,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:17:44.8857,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:17:45.0237,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:17:45.0237,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:17:45.2157,Waiting for homing to finish,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:20.5591,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:20.5791,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:20.5791,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:20.6311,Waiting for homing to finish,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:38.3972,Homing done successfully!,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.3972,Initializing List<string> playlist.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:38.3972,Start of while loop iteration.,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:38.3972,Copying playlist.xml to _playlist.xml,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.3972,Attempting to read playlist XML file.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.4152,looping over playlist items,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:38.4152,Running motion file for 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:38.4152,Running motionExes\runmotion03.exe,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:38.4292,Playing video file 03fall.ogv,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:19:39.2792,player.input.state = 0,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.2792,Forcing fullscreen,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.3022,Clearing VLC playlist,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.3022,VLC about to play: 03fall.ogv,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.3232,player.input.state = 0,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.3232,Play NOW!,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.3232,player.input.state = 0,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.4292,player.input.state = 1,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.5302,player.input.state = 1,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.6312,player.input.state = 1,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.7322,player.input.state = 1,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:19:39.8332,player.input.state = 3,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:21:14.5627,Initializing Main(),SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:21:14.5937,Taking system to home position.,SlidingScreensVideoPlayer.Program,Info
+2015-01-22 12:21:14.5937,Calling the homing EXE,SlidingScreensVideoPlayer.Program,Trace
+2015-01-22 12:21:14.6387,Waiting for homing to finish,SlidingScreensVideoPlayer.Program,Trace
